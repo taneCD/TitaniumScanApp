@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 public class CitanjeFakture {
     public Faktura citanjeInputa(ArrayList<Proizvod>proizvodiIzFakture, String excFilePath){
-//        String excFilePath = "src/main/java/Titanium fakture/Titanium order1.xlsx";
 
         ArrayList<Artikli> artikliLista = new ArrayList<>();
         Faktura faktura = null;
